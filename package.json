@@ -1,0 +1,19 @@
+{
+  "name": "gulp-image-size",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/legoflow-override/gulp-image-size.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/legoflow-override/gulp-image-size/issues"
+  },
+  "homepage": "https://github.com/legoflow-override/gulp-image-size#readme"
+}
