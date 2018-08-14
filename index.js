@@ -6,7 +6,7 @@ let fs = require('fs');
 
 const imageSizeSass = ( config, resolve ) => {
 
-	const { projectPath, REM, env } = config;
+	const { projectPath, REM, workflow } = config;
 
 	let imgSizescss = ``;
 	let path = projectPath + '/src/img/**';
@@ -72,7 +72,7 @@ let otherStyle =
 	background-repeat: no-repeat;`;
 
 if(item.indexOf('/img/slice/') > 0){
-	if( env === 'build'){
+	if( workflow === 'build'){
 		otherStyle = '	background-repeat: no-repeat;';
 	}
 }
